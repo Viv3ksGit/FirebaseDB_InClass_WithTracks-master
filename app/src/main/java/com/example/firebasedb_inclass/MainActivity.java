@@ -153,4 +153,10 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
+    public void Logout(View view) {
+
+        Intent intent = new Intent(this, LoginActivity.class);
+        startActivity(intent);
+    }
 }
